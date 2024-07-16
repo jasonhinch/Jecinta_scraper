@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jecinta-scraper"
+version = "0.1.0"
+description = ""
+authors = ["JasonHinch <jasonhinch@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.22.0"
+webdriver-manager = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
